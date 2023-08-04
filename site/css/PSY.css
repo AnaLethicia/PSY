@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap');
+
+body {
+    font-family: Archivo;
+    font-size: 200%;
+    font-weight: 400;
+    margin-bottom: 0.77em;
+    
+    text-align: center;
+    padding: 200px;
+    background-color: rgb(27, 25, 31);
+    border-radius: #fff;
+
+    flex-direction: column;
+    gap: 50px;
+}
+
+.welcome {
+    color: #fff;
+}
+.welcome-description {
+    color: #fff;
+}
+.redirection {
+    color: #fff;
+}
+
+.PSY {
+    color: rgb(131, 86, 175);
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(131, 86, 175);
+    clip-path: circle(33% at bottom right);
+}
+
+a {
+    position: relative;
+    background: #fff;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    tab-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 30px;
+    transition: 0.5s;
+    border-radius: 0.5em;
+}
+
+a:hover {
+    background: #e1c6f1;
+    color: #e1c6f1;
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px var(--clr);
+}
+
+a::before {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: rgb(23, 23, 27);
+    border-radius: 0.5em;
+}
+
+a span {
+    position: relative;
+    z-index: 1;
+}

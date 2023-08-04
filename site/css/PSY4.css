@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Archivo;
+}
+
+header {
+    background-color: rgb(23, 23, 27);
+    color: #fff;
+    font-family: Archivo;
+    margin: 0 auto;
+    padding: 19.5px 288px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+.title2{
+    font-weight: 500;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: rgb(131, 86, 175);
+    transition: 0.3s all;
+}
+
+.conta-btn {
+    border: 2px solid rgb(131, 86, 175);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.conta-btn:hover {
+    background-color: rgb(131, 86, 175);
+    color: #fff;
+}
+
+section {
+    padding: 0px 15%;
+}
+
+.contact {
+    background: rgb(23, 23, 27);
+    height: 100%;
+    width: 100%;
+    min-height: 0vh;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    grid-gap: 6rem;
+}
+
+.contact-img img {
+    min-width: 120%;
+    width: 720px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contact-form h1 {
+    font-size: 75px;
+    color: #fff;
+    margin-bottom: 20px;
+    line-height: 65px;
+    letter-spacing: 2px;
+}
+
+span {
+    color: rgb(131, 86, 175);
+}
+
+.contact-form p {
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 1.1rem;
+    margin-bottom: 1.8rem;
+}
+
+.contact-form form {
+    position: relative;
+}
+
+.contact-form form input, form textarea {
+    width: 100%;
+    padding: 17px;
+    border: none;
+    outline: none;
+    background: rgb(37, 37, 46);
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 20px;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 200px;
+}
+
+.contact-form form .btn {
+    display: inline-block;
+    background: rgb(131, 86, 175);
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    width: 220px;
+    cursor: pointer;
+}
+
+.contact-form form .btn:hover {
+    background-color: transparent;
+    border: 2px solid rgb(131, 86, 175);
+    color: #fff;
+    transition: .3s;
+}
+
+input::placeholder {
+    color: #e5e4e7;
+}
+
+textarea::placeholder {
+    color: #e5e4e7;
+}
